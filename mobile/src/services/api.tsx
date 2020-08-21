@@ -3,7 +3,7 @@ import axios from 'axios';
 // mudar local host
 
 const api = axios.create({
-    baseURL: 'http://localhost:3333'
+    baseURL: 'http://10.0.0.20:3333'
 });
 
 export default api;
